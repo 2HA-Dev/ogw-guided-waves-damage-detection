@@ -1,0 +1,92 @@
+{
+ "calibration": {
+  "instructions": 16000000,
+  "ticks": 400000,
+  "instructions_per_tick": 40.0
+ },
+ "pca_int8": {
+  "sections": {
+   ".vectors": 64,
+   ".text": 31384,
+   ".rodata": 327044,
+   ".test_inputs": 865920,
+   ".ARM.exidx": 8,
+   ".init_array": 8,
+   ".fini_array": 4,
+   ".data": 2464,
+   ".bss": 992,
+   ".ARM.attributes": 46,
+   ".comment": 57
+  },
+  "flash": 360976,
+  "ram": 3456,
+  "outside_model": 865920,
+  "indicators": [
+   6.008397,
+   5.527249,
+   62.21201,
+   62.87294
+  ],
+  "expected": [
+   6.008327007293701,
+   5.527354717254639,
+   62.21200942993164,
+   62.87284851074219
+  ],
+  "measurements": [
+   171,
+   296,
+   362,
+   684
+  ],
+  "max_rel_diff": 1.912619327804066e-05,
+  "empty_paths": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "instructions": 3251800.0,
+  "input_ram": 216480
+ },
+ "cnn2d_16_int8_nchw": {
+  "sections": {
+   ".vectors": 64,
+   ".text": 33048,
+   ".rodata": 136800,
+   ".ARM.exidx": 8,
+   ".init_array": 8,
+   ".fini_array": 4,
+   ".data": 2464,
+   ".bss": 315624,
+   ".ARM.attributes": 46,
+   ".comment": 57
+  },
+  "flash": 106796,
+  "ram": 318088,
+  "outside_model": 65600,
+  "output": -117.0,
+  "host_output": -117.0,
+  "instructions": 120652680.0
+ },
+ "cnn1d_f32_ncw": {
+  "sections": {
+   ".vectors": 64,
+   ".text": 33048,
+   ".rodata": 478628,
+   ".ARM.exidx": 8,
+   ".init_array": 8,
+   ".fini_array": 4,
+   ".data": 2464,
+   ".bss": 322432,
+   ".ARM.attributes": 46,
+   ".comment": 57
+  },
+  "flash": 297744,
+  "ram": 324896,
+  "outside_model": 216480,
+  "output": -10.30749,
+  "host_output": -10.307495,
+  "instructions": 107888800.0
+ }
+}

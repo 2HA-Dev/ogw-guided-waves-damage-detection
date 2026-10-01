@@ -1,0 +1,13 @@
+data
+.venv/
+.venv-aidge/
+__pycache__/
+*.egg-info/
+*.pt
+*.onnx
+runs/
+exported_graph.mmd
+results/step05_aidge_export/exports/
+results/step09_aidge_int8_case/*/
+results/step08_cortex_m7/build/
+arm_tools
